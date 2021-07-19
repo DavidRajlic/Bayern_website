@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+}
+.container{
+  background-color: #BA2335;
+  
+}
+.navbar{
+  padding-right: 250px;
+  padding-left: 250px;
+  height: 160px;
+  border-bottom: darkblue solid 1px;
+}
+.navbar  div{
+  display: inline-block;
+}
+.bayern{
+  padding-top: 30px;
+  padding-right: 20px;
+  width: 6rem;
+}
+.text{
+  position: absolute;
+  padding-top: 60px;
+  color: white;
+}
+.small{
+  font-size: small;
+}
+.presented{
+  position: relative;
+  left: 200px;
+  bottom: 90px;
+  color: rgba(128, 128, 128, 0.815);
+}
+.telekom{
+  position: relative;
+  left: 210px;
+  bottom: 80px;
+}
+.telekom img{
+  width: 60px;
+}
+.links{
+  position: relative;
+  left: 50px;
+  bottom: 30px;
+  color: white;
+  font-size: 20px;
+}
+.links a{
+  padding: 5px;
+ 
+}
+.links a:hover{
+  color: grey;
+}
+.news{
+  margin-bottom: 5px;
+}
+.underline {
+  text-decoration: underline;
+}
+.search{
+  height: 20px;
+} 
+.en{
+  padding-left: 15rem;
+}
+
+.under{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  color: white;
+  background-color: #BA2335;
+  padding-left: 250px;
+  font-size: small;
+}
