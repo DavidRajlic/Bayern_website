@@ -1,79 +1,265 @@
-body{
+/* All */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   margin: 0;
 }
-.container{
-  background-color: #BA2335;
-  
+
+.container {
+  background-color: #ba2335;
 }
-.navbar{
+
+/* Navbar */
+.navbar {
   padding-right: 250px;
   padding-left: 250px;
   height: 160px;
   border-bottom: darkblue solid 1px;
 }
-.navbar  div{
+.navbar div {
   display: inline-block;
 }
-.bayern{
+
+.bayern {
   padding-top: 30px;
   padding-right: 20px;
   width: 6rem;
 }
-.text{
+.text {
   position: absolute;
   padding-top: 60px;
   color: white;
 }
-.small{
+.small {
   font-size: small;
 }
-.presented{
+.presented {
   position: relative;
   left: 200px;
   bottom: 90px;
   color: rgba(128, 128, 128, 0.815);
 }
-.telekom{
+.telekom {
   position: relative;
   left: 210px;
   bottom: 80px;
 }
-.telekom img{
+.telekom img {
   width: 60px;
 }
-.links{
+.links {
   position: relative;
   left: 50px;
   bottom: 30px;
   color: white;
   font-size: 20px;
 }
-.links a{
+.links a {
   padding: 5px;
- 
+  cursor: pointer;
 }
-.links a:hover{
+.links a:hover {
   color: grey;
 }
-.news{
+
+.news {
   margin-bottom: 5px;
 }
+
 .underline {
   text-decoration: underline;
 }
-.search{
+
+.search {
   height: 20px;
-} 
-.en{
+}
+
+.en {
   padding-left: 15rem;
 }
 
-.under{
+.under {
   display: flex;
   align-items: center;
   height: 30px;
   color: white;
-  background-color: #BA2335;
+  background-color: #ba2335;
   padding-left: 250px;
   font-size: small;
+}
+.pics {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.pics div {
+  position: relative;
+}
+.pics h2 {
+  position: absolute;
+  padding-left: 30px;
+  color: darkblue;
+  font-size: 30px;
+}
+.pics h2:hover {
+  color: #ba2335;
+}
+.pics p {
+  color: gray;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.header {
+  padding-left: 250px;
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+.button-container {
+  padding-left: 250px;
+}
+.button-container button {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.red {
+  border: 2px solid #ba2335;
+  color: white;
+  background-color: #ba2335;
+}
+.white {
+  background-color: white;
+  color: #ba2335;
+}
+
+.nagelsmann {
+  cursor: pointer;
+  height: 250px;
+  width: 440px;
+  padding-top: 50px;
+}
+.match {
+  cursor: pointer;
+  height: 250px;
+  width: 440px;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.sign-container {
+  position: relative;
+  background-color: #bdbdbd;
+  margin-top: 200px;
+  height: 500px;
+}
+.sign {
+  position: absolute;
+  background-color: #e0e0e0;
+  width: 1000px;
+  height: 250px;
+  top: 100px;
+  left: 20%;
+  padding-left: 20px;
+}
+.sign h3 {
+  color: darkblue;
+}
+.sign h4 {
+  color: darkblue;
+  height: 3px;
+}
+
+.input input {
+  width: 980px;
+  height: 40px;
+}
+.paragraph {
+  font-size: small;
+  color: gray;
+}
+.sign button {
+  position: absolute;
+  right: 20px;
+  background-color: #ba2335;
+  color: white;
+  height: 40px;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+}
+.span-red {
+  color: #ba2335;
+}
+.feed-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 500px;
+  background: #ba2335;
+}
+.feed {
+  position: absolute;
+  transform: translateY(-50%);
+}
+.feed img {
+  width: 8rem;
+}
+.btt-container {
+  position: absolute;
+  right: 500px;
+}
+.btt-container button {
+  margin-top: 55px;
+  color: white;
+  height: 40px;
+  border: none;
+  width: 140px;
+  border-radius: 5px;
+  background-color: #ba2335;
+}
+.fcbayern-container {
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  padding-right: 60px;
+  border-right: 2px black solid;
+}
+.fcbayern {
+  color: white;
+  font-size: 20px;
+}
+
+.fcbayern-container a {
+  color: #808080;
+}
+
+/* Media Query */
+@media (max-width: 1200px) {
+  body {
+    color: red;
+  }
+}
+
+@media (max-width: 960px) {
+  body {
+    color: red;
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    color: red;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    color: red;
+  }
 }
